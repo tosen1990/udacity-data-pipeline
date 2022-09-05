@@ -1,0 +1,17 @@
+# Virtual environment
+env/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Jupyter notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Airflow configs
+airflow/*.cfg
+
+# Airflow db
+airflow/airflow.db
